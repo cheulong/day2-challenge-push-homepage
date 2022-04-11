@@ -1,7 +1,16 @@
-import * as React from "react";
+import Hero from 'Layout/Hero';
+import Gallery from 'Layout/Gallery';
+import Footer from 'Layout/Footer';
+import * as React from 'react';
 
 const Home = () => {
-  return <h1>Welcome to My Next App!</h1>;
+  return (
+    <div>
+      <Hero />
+      <Gallery />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
